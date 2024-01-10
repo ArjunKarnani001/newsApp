@@ -1,5 +1,5 @@
 body {
-  min-height: 1460px;
+  min-height: 1550px;
   position: relative;
   /* background:
     linear-gradient(rgb(97, 81, 81), transparent); */
@@ -11,7 +11,7 @@ body {
 .navbar {
   position: fixed;
   top: 0;
-  background-color: rgb(46, 46, 46);;
+  background-color: rgb(46, 46, 46);
   padding: 32px 725px; /* Adjust the padding as needed */
   display: flex;
   justify-content: space-between;
@@ -106,17 +106,68 @@ input::placeholder {
 /* HEADER */
 
 .header {
-  color: rgb(48, 45, 44);
-  font-family: palatino, serif;
-  font-size: 50px;
-  margin-top: 80px;
+  position: absolute;
+  top: 10px;
+  left: 135px;
+  width: 600px;
+  height: 60px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin-top: 70px;
   margin-bottom: 15px;
+  margin-left: 0px;
+  background-color: rgb(46, 46, 46);
   text-align: center;
+}
+
+.title {
+  color: white;
+  font-family: palatino, serif;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.totalResults {
+  width: 230px;
+  height: 40px;
+  position: relative;
+  top: 100px;
+  left: 890px;
+  background-color: rgb(46, 46, 46);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.totalResultText {
+  position: absolute;
+  font-family: palatino, serif;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.pageNumber {
+  width: 200px;
+  height: 40px;
+  position: relative;
+  top: 60px;
+  left: 1125px;
+  background-color: rgb(46, 46, 46);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.pageNumberText {
+  position: absolute;
+  font-family: palatino, serif;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 /* CARDS */
 
 .cardsContainer {
+  margin-top: 80px;
   margin-left: 130px;
 }
 
@@ -128,8 +179,7 @@ input::placeholder {
   border-color: rgb(79, 77, 77);
   height: 425px;
   width: 18rem;
-  /* background: linear-gradient(to bottom, #a7eaf9 1%, #e5e5e5 100%); */
-  background: rgb(46, 46, 46);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  background: rgb(46, 46, 46);
   transition: box-shadow 0.3s ease, transform 0.5s ease;
 }
 
