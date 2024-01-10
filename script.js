@@ -6,7 +6,7 @@ const fetchNews = async (page, q) => {
     "https://newsapi.org/v2/everything?" +
     "q=" +
     q +
-    "&from=2024-01-09&" +
+    "&from=2024-01-07&" +
     "language=en&" +
     "pageSize=12&" +
     "page=" +
@@ -187,6 +187,170 @@ const fetchNews = async (page, q) => {
         publishedAt: "2024-01-09T03:40:00Z",
         content:
           "The NRG Stadium roof may have been closed, but the stars were out in full effect on Monday for the highly-anticipated 2023 College Football Playoff national championship game.\r\nAn epic final between … [+727 chars]",
+      },
+      {
+        source: { id: "engadget", name: "Engadget" },
+        author: "Will Shanklin",
+        title:
+          "Samsung’s 2024 TV lineup at CES 2024 includes AI aplenty and a ‘glare-free’ OLED model",
+        description:
+          "Samsung’s CES 2024 TV rollout is here. The company typically reserves finer product details (including pricing) for later, but it provided Engadget with a quick rundown of its new television lineup ahead of its press conference on Monday. Its new 8K TVs have …",
+        url: "https://www.engadget.com/samsungs-2024-tv-lineup-at-ces-2024-includes-ai-aplenty-and-a-glare-free-oled-model-030046720.html",
+        urlToImage:
+          "https://s.yimg.com/ny/api/res/1.2/csQ69tX.YrmA8V9qg5Ea5w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03MjA-/https://s.yimg.com/os/creatr-uploaded-images/2024-01/f9fd5dc0-ad7e-11ee-bbda-849c13dd10dd",
+        publishedAt: "2024-01-08T03:00:46Z",
+        content:
+          "Samsungs CES 2024 TV rollout is here. The company typically reserves finer product details (including pricing) for later, but it provided Engadget with a quick rundown of its new television lineup ah… [+3061 chars]",
+      },
+      {
+        source: { id: "engadget", name: "Engadget" },
+        author: "Sam Rutherford",
+        title:
+          "MSI is going big with three new 18-inch gaming laptops at CES 2024",
+        description:
+          "CES often sets the tone for all of a manufacturer’s products that year. And apparently the theme for MSI in 2024 is “big.” It’s kicking things with three new 18-inch gaming laptops at CES 2024, plus one of the best-looking budget systems around.\nAs usual, MSI…",
+        url: "https://www.engadget.com/msi-is-going-big-with-three-new-18-inch-gaming-laptops-at-ces-2024-230028061.html",
+        urlToImage:
+          "https://s.yimg.com/ny/api/res/1.2/HhtKXh0wic0mSDtdBwQm3A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03MjA-/https://s.yimg.com/os/creatr-uploaded-images/2024-01/608759c0-adab-11ee-bf7f-1d36bcf84ef9",
+        publishedAt: "2024-01-08T23:00:28Z",
+        content:
+          "CES often sets the tone for all of a manufacturers products that year. And apparently the theme for MSI in 2024 is big. Its kicking things with three new 18-inch gaming laptops at CES 2024, plus one … [+3824 chars]",
+      },
+      {
+        source: { id: "the-verge", name: "The Verge" },
+        author: "Emma Roth",
+        title: "AMD’s Ryzen 8000-series chips get an AI upgrade",
+        description:
+          "AMD is launching a new lineup of 8000-series accelerated processing units, all of which come with integrated Radeon graphics and a neural processing unit for AI.",
+        url: "https://www.theverge.com/2024/1/8/24026575/amd-8000-series-chips-ai-upgrade-ces-2024",
+        urlToImage:
+          "https://cdn.vox-cdn.com/thumbor/F0GqmeDjvx8wBuIpJPh-vBJCGAE=/0x0:5760x3240/1200x628/filters:focal(2880x1620:2881x1621)/cdn.vox-cdn.com/uploads/chorus_asset/file/25211302/Ryzen_AI_1.jpg",
+        publishedAt: "2024-01-08T15:30:00Z",
+        content:
+          "AMDs Ryzen 8000-series chips get an AI upgrade\r\nAMDs Ryzen 8000-series chips get an AI upgrade\r\n / AMDs new Ryzen 7 8700G comes with a neural processing unit thats built for AI.\r\nByEmma Roth, a news … [+2544 chars]",
+      },
+      {
+        source: { id: "bbc-news", name: "BBC News" },
+        author: null,
+        title: "Woman says running is 'tainted' by catcalling men",
+        description:
+          "Thousands of women fear running alone at night because of the risk of being attacked.",
+        url: "https://www.bbc.co.uk/news/av/uk-wales-67894770",
+        urlToImage:
+          "https://ichef.bbci.co.uk/news/1024/branded_news/17E78/production/_132221979_p0h3kmn0.jpg",
+        publishedAt: "2024-01-07T21:53:08Z",
+        content:
+          '"My view on running is slightly tainted, only from past experiences."\r\nLucy Lavington, 18, from Abergavenny in Monmouthshire, said she was running alone when a car pulled up alongside her and the dri… [+290 chars]',
+      },
+      {
+        source: { id: null, name: "Android Central" },
+        author: "michael.hicks@futurenet.com (Michael L Hicks)",
+        title:
+          "Garmin Lily 2 hybrid watches provide a gorgeous, scaled-back alternative to Venu 3",
+        description:
+          "Though the Garmin Lily 2 and Lily 2 Classic don't make that many changes from the original, they at least bring back the petite, waterproof, and long-lasting design that you liked the first time.",
+        url: "https://www.androidcentral.com/wearables/garmin-announces-lily-2-classic-at-ces-2024",
+        urlToImage:
+          "https://cdn.mos.cms.futurecdn.net/gTrbS2m8YoKG67RGPuPFVM-1200-80.jpg",
+        publishedAt: "2024-01-08T12:00:59Z",
+        content:
+          "<ul><li>The Garmin Lily 2 ($249) and Lily 2 Classic ($279+) were announced at CES 2024, with a 5-day battery life and monocolor touchscreen display.</li><li>They add sleep scores and dance fitness ac… [+4383 chars]",
+      },
+      {
+        source: { id: null, name: "Android Central" },
+        author: "techkritiko@gmail.com (Jay Bonggolto)",
+        title: "The Samsung Galaxy Tab A9 might be hitting US shelves soon",
+        description:
+          "Samsung seems ready to release the Galaxy Tab A9 tablets in the U.S., based on a listing that's no longer available.",
+        url: "https://www.androidcentral.com/tablets/samsung-galaxy-tab-a9-plus-briefly-shows-up-in-us",
+        urlToImage:
+          "https://cdn.mos.cms.futurecdn.net/FpXghxgVAHxZLmkNMamaf9-1200-80.jpg",
+        publishedAt: "2024-01-07T17:44:21Z",
+        content:
+          "<ul><li>Samsung initially introduced the Galaxy Tab A9 series in October, with a potential upcoming release in the US market.</li><li>Recent sightings on Samsung's website, particularly on the Shop S… [+1890 chars]",
+      },
+      {
+        source: { id: null, name: "Android Central" },
+        author: "michael.hicks@futurenet.com (Michael L Hicks)",
+        title:
+          "Garmin revamping its Connect app is my favorite news of CES 2024",
+        description:
+          "The Garmin Connect app, as it stands today, is an inscrutible labyrinth to navigate. The redesigned Home page puts all of your most important data upfront, so it's easier to find.",
+        url: "https://www.androidcentral.com/wearables/garmin-connect-beta-redesign-is-long-overdue",
+        urlToImage:
+          "https://cdn.mos.cms.futurecdn.net/sqG6vZx4ZekZHq3sJ2ZBQU-1200-80.jpeg",
+        publishedAt: "2024-01-08T12:00:00Z",
+        content:
+          "<ul><li>Garmin rolled out its new beta version of the Garmin Connect app on January 8. </li><li>New homepage categories like In Focus, At a Glance, Events, Training Plans, and Challenges are now avai… [+3206 chars]",
+      },
+      {
+        source: { id: null, name: "Android Central" },
+        author: "michael.hicks@futurenet.com (Michael L Hicks)",
+        title:
+          "XREAL wants to undercut the Apple Vision Pro with its 'Ultra' AR glasses",
+        description:
+          "XREAL is bringing us closer and closer to the futuristic vision of AR glasses that Google Glass hinted at years ago, at least in terms of compact hardware.",
+        url: "https://www.androidcentral.com/gaming/virtual-reality/xreal-challenges-apple-vision-pro-with-air-2-ultra-ar-glasses",
+        urlToImage:
+          "https://cdn.mos.cms.futurecdn.net/uttRSfVJbp2cx6cP3bh379-1200-80.jpeg",
+        publishedAt: "2024-01-07T14:00:00Z",
+        content:
+          "<ul><li>The XREAL Air 2 Ultra was announced at CES 2024 and ships in March 2024 for $699.</li><li>Designed for developers, it adds 3D environment sensors for the first time, supporting handtracking a… [+3018 chars]",
+      },
+      {
+        source: { id: null, name: "Android Central" },
+        author: "nicholas.sutrich@futurenet.com (Nicholas Sutrich)",
+        title: "The first exclusive Meta Quest 3 game is already here",
+        description:
+          "Townsmen VR is the first Meta Quest 3 exclusive game, making us wonder how long it will be before we see more exclusives.",
+        url: "https://www.androidcentral.com/gaming/virtual-reality/townsmen-vr-meta-quest-3-exclusive",
+        urlToImage:
+          "https://cdn.mos.cms.futurecdn.net/ea72giMWycteUo73nCTopR-1200-80.jpg",
+        publishedAt: "2024-01-08T16:20:10Z",
+        content:
+          '<ul><li>Townsmen VR is now available on the Meta Quest 3 for $29.99.</li><li>It\'s a built-for-VR version of the classic medieval-themed city building game featuring "god game" elements and fully-inte… [+2477 chars]',
+      },
+      {
+        source: { id: null, name: "Android Central" },
+        author: "michael.hicks@futurenet.com (Michael L Hicks)",
+        title:
+          "Garmin needs to make its indoor workouts as compelling as its outdoor ones",
+        description:
+          "Garmin is the only brand we know of that tracks individual exercise moves like push-ups or deadlifts, with thousands of options. But it doesn't do nearly enough with this concept.",
+        url: "https://www.androidcentral.com/wearables/garmin-needs-to-make-indoor-workouts-as-good-as-outdoor-ones",
+        urlToImage:
+          "https://cdn.mos.cms.futurecdn.net/YZArwwvKK5b9fWPdS5HWAk-1200-80.jpeg",
+        publishedAt: "2024-01-07T16:00:53Z",
+        content:
+          "(Image credit: Android Central)\r\nIn his weekly column, our Senior Editor of Wearables and Fitness Michael Hicks discusses the world of smartwatches, apps, and fitness tech related to running and heal… [+8704 chars]",
+      },
+      {
+        source: { id: null, name: "CNET" },
+        author: "Lisa Eadicicco",
+        title:
+          "Garmin's New Lily 2 Smartwatch Can Rate Your Sleep and Track Your Dance Moves - CNET",
+        description:
+          "The Lily 2 is an updated version of Garmin's fashionable watch with more sleep and exercise tracking features.",
+        url: "https://www.cnet.com/tech/mobile/garmins-new-lily-2-smartwatch-can-rate-your-sleep-and-track-your-dance-moves/",
+        urlToImage:
+          "https://www.cnet.com/a/img/resize/2e4bc3811134d2779e74da92893a3e8b689bb161/hub/2024/01/04/0a084e7f-c496-4dcd-9a41-153b0702d1c8/lily-2-family-all-skus-199.jpg?auto=webp&fit=crop&height=675&width=1200",
+        publishedAt: "2024-01-08T12:00:10Z",
+        content:
+          "Garmin just announced the Lily 2 at CES 2024, an updated version of its stylish smartwatch aimed at those who prefer sleeker watches. The new model has a few extra features that were missing from the… [+3271 chars]",
+      },
+      {
+        source: { id: null, name: "CNET" },
+        author: "Steven Musil",
+        title:
+          "This Smart Toothbrush Talks Through Your Bones to Improve Your Brushing - CNET",
+        description:
+          "The Oclean Ultra X includes custom modes, interactive touchscreens and AI voice tips to bolster your brushing technique.",
+        url: "https://www.cnet.com/health/medical/this-smart-toothbrush-talks-through-your-bones-to-improve-your-brushing/",
+        urlToImage:
+          "https://www.cnet.com/a/img/resize/c6daec8b5eb391a8acd1c60c3febe178a6e94e75/hub/2024/01/08/57962471-f878-4f2b-913e-a275c8299fc8/oclean-touthbrush-seq-00-01-39-09-still001.jpg?auto=webp&fit=crop&height=675&width=1200",
+        publishedAt: "2024-01-08T21:45:00Z",
+        content:
+          "You may have seen plenty of smart toothbrushes by now, but have you seen one that talks to you through your bones while you brush your teeth? Showcased at CES 2024, the Oclean X Ultra Wi-Fi Digital T… [+1594 chars]",
       },
     ],
   };
