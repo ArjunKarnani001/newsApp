@@ -12,7 +12,7 @@ const fetchNews = async (page, q) => {
     "page=" +
     page +
     "&sortBy=popularity&" +
-    "apiKey=a1fb67c4f1904fc2b611c664083ebfc1";
+    "apiKey=";
 
   var req = new Request(url);
 
